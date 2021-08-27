@@ -129,7 +129,6 @@ func (mvnCmd *mavenCommandStruct) Execute(targets ...string) (string, error) {
 	if len(mvnCmd.loggerContext) > 0 {
 		cmd.WithLoggerContext(mvnCmd.loggerContext)
 	}
-
 	return cmd.Execute()
 }
 
