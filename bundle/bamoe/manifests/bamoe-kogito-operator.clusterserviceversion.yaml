@@ -67,7 +67,7 @@ metadata:
     repository: https://github.com/kiegroup/kogito-operator
     support: https://www.ibm.com/mysupport
     tectonic-visibility: ocs
-  name: bamoe-kogito-operator.8.0.4-1
+  name: bamoe-kogito-operator.8.0.4-2
   namespace: placeholder
 spec:
   apiservicedefinitions: {}
@@ -989,7 +989,7 @@ spec:
   - automation
   labels:
     alm-owner-kogito: bamoe-kogito-operator
-    operated-by: bamoe-kogito-operator.8.0.4-1
+    operated-by: bamoe-kogito-operator.8.0.4-2
   links:
   - name: Product Page
     url: https://ibm.com
@@ -1003,5 +1003,5 @@ spec:
   maturity: beta
   provider:
     name: IBM
-  replaces: bamoe-kogito-operator.8.0.3-1
-  version: 8.0.4-1
+  replaces: bamoe-kogito-operator.8.0.4-1
+  version: 8.0.4-2
